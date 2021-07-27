@@ -4,7 +4,7 @@ This is a quick cleaner file that takes the svg element of the [CDC's county lev
 
 ## How to use
 
-- Download the repo and run pipenv install.
+- Download the repo and run `pipenv install`.
 - Copy the `g id=counties` element from the CDC's map and paste the contents into `counties.html`
 - Run `pipenv run python cleaner.py` to output the data into a json format. The csv included was manually produced for the first day using a json-to-csv converter online. 
 
