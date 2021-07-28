@@ -1,11 +1,7 @@
 name: cdc-data-scraper
-
-# on:
-#   schedule:
-#     - cron: '*/5 * * * *' # runs every fifth minute
-
-on: 
-  [push]
+on:
+  schedule:
+    - cron: '*/5 * * * *' # runs every fifth minute
 
 jobs:
   build:
