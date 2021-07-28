@@ -1,3 +1,5 @@
+[![cdc-data-scraper](https://github.com/johndhancock/CDC-county-level-comm-transmission/actions/workflows/scraper.yml/badge.svg)](https://github.com/johndhancock/CDC-county-level-comm-transmission/actions/workflows/scraper.yml)
+
 # CDC-county-level-comm-transmission
 
 This is a quick cleaner file that takes the svg element of the [CDC's county level community transmission level map](https://covid.cdc.gov/covid-data-tracker/#county-view) and parses the data into a structured format using the data attributes on the individual county paths.
