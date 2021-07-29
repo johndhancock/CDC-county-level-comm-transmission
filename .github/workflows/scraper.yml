@@ -1,7 +1,7 @@
 name: cdc-data-scraper
 on:
   schedule:
-    - cron: '0 0 * * 1' # runs every fifth minute
+    - cron: '0 0 * * 1' # runs every monday at 00:00
 
 jobs:
   build:
